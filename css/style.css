@@ -1,0 +1,60 @@
+*{
+    /* Reset (zera as configurações padrão dos navegadores) */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* importa fonte Montsenrrat do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    fonte-size: 1rem
+    
+}
+
+.img{
+    width: 20rem;
+
+}
+.menu{
+    /*       TOP    RIGHT   BOTTOM  LEFT */
+    padding: 32px   64px    32px    64px;
+    background-size: cover;
+    background-position: center;
+    width: 20rem250px;
+    background-image: url(../assest/fundotopo.jpg);
+}
+
+ul{
+
+display: flex;
+width: 100%;
+gap: 2rem;
+
+}
+
+a{
+
+    padding: .05rem;
+    cor: black;
+    font-size: 1.5rem;
+    letter-spacing: .03rem;
+}
+section{
+min-height: 100vh;
+
+}
+
+article {
+    width: 20rem;
+    font-size: 1rem;
+}
+
+article img{
+    width: 20rem;
+    float: left;
+    margin-right: 2rem;
+
+}
